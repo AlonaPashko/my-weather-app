@@ -1,0 +1,71 @@
+.container{
+    max-width: 50%;
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-weight: 700;
+    border: 0.5px solid;
+    border-color: #6D8B74;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+}
+.search{
+    padding: auto;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    color: #6D8B74;
+    font-size: 40px;
+    padding: auto;
+    margin: 15px;
+}
+
+p{
+    text-align: center;
+    color: #D0C9C0;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 200;
+}
+.unit-links{
+    color:black;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.left-panel {
+    position: relative;
+    left: -10px;
+    font-style: italic;
+    color: #6D8B74;
+}
+li{
+    list-style: none;
+}
+.right-panel{
+    position: relative;
+    left: -40px;
+    top: -40px;
+    text-align: right;
+    font-style: italic;
+    color: #6D8B74;
+}
+.main-icon {
+    font-size: 80px;
+}
+.row{
+    color: black;
+}
+.col{
+    text-align: center;
+    font-style: italic;
+}
+.days{
+    color:#6D8B74;
+    font-size: 20px;
+}
+.icons{
+    color: #5F7161;
+font-size: 30px;
+}
