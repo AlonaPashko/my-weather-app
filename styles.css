@@ -16,11 +16,6 @@
     padding: 20px;
     
 }
-.search{
-    margin: auto;
-    padding: auto;
-}
-
 h1{
     color: #6D8B74;
     display: block;
@@ -46,6 +41,14 @@ h1{
     position: relative;
     font-size: 18px;
     top: -32px;
+}
+.unit-link{
+    color: black;
+    cursor: default;
+    text-decoration: none;
+}
+.unit-link:hover{
+    text-decoration: none;
 }
 .left-panel {
     position: relative;
@@ -78,14 +81,14 @@ li{
     text-align: center;
     font-style: italic;
 }
-.days{
+/* .days{
     color:#6D8B74;
     font-size: 20px;
 }
 .icons{
     color: #5F7161;
 font-size: 30px;
-}
+} */
 .github-link
 {
 display: block;
