@@ -1,39 +1,52 @@
+
 .container{
-    max-width: 50%;
-    font-family: 'Familjen Grotesk', sans-serif;
-    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px auto;
+    padding: 10 px;
+
+}
+.weather-app{
     border: 0.5px solid;
     border-color: #6D8B74;
     border-radius: 10px;
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-weight: 700;
+    max-width: 600px;
+    margin: 30px auto;
     padding: 20px;
-    margin: 20px auto;
+    
 }
 .search{
-    padding: auto;
     margin: auto;
+    padding: auto;
 }
 
 h1{
+    color: #6D8B74;
+    display: block;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 28px;
+    margin: 15px;
+    padding: auto;
+    text-align: center;
+}
+.date{
     text-align: center;
     color: #6D8B74;
-    font-size: 40px;
-    padding: auto;
-    margin: 15px;
+    font-size: 18px;
 }
-
-p{
-    text-align: center;
-    color: #D0C9C0;
-    font-size: 30px;
-    font-style: italic;
-    font-weight: 200;
+.temperature {
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 1;
 }
-.unit-links{
-    color:black;
-    font-size: 40px;
-    text-decoration: none;
+.units
+{
+    position: relative;
+    font-size: 18px;
+    top: -32px;
 }
-
 .left-panel {
     position: relative;
     left: -10px;
@@ -42,6 +55,10 @@ p{
 }
 li{
     list-style: none;
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    text-align: left;
 }
 .right-panel{
     position: relative;
@@ -71,7 +88,7 @@ font-size: 30px;
 }
 .github-link
 {
+display: block;
 text-align: center;
 color:#5F7161;
-font-size: 20px;
 }

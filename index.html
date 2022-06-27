@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/f06eca9fd9.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <title>WeatherApp</title>
-    <link rel="stylesheet" href="styles.css" /><link rel="preconnect" href="https://fonts.googleapis.com">
-    
 </head>
 <body>
     <div class="container">
+        <div class="weather-app">
         <form class="search" id="search-form">
             <div class="row">
                 <div class="col-6">
@@ -33,14 +34,10 @@
         </form>
           <h1><span id="current-city"></span>
         </h1>
-          <p id="current-time">
-          </p>
+          <p class="date">Last updated: <span id="current-time"></span> </p>
           <h1 id="degree">
-            <span class="temperature" id="temperature"></span>
-            <span class="units">°C 
-                <!-- | <a href="#" class="unit-links" id="fahrenheit-link">°F </a>  -->
-            </span>
-        </h1>
+            <strong class="temperature" id="temperature"></strong><small class="units">°C |<a href="#">°F</a></small>
+          </h1>
           <h4>
             <div class="row">
                 <div class="col">
@@ -51,26 +48,19 @@
                          </li>
                            <li>
                             Humidity: <span id="humidity"></span>%
-                         </li>   
+                         </li>
+                         <li id="description"></li>   
                         </ul>
                       </div>
                 </div>
                   <div class="col">
                     <div class="right-panel">
-                        <div class="main-icon">
-                           <i class="fa-solid fa-cloud-showers-heavy"></i>
-                        </div>
-                        <ul>
-                            <li id="description">
-                                Cloudly
-                            </li>
-                        </ul>
+                        <div class="main-icon"><img src="" alt="" width=140px id="icon"/></div>
                     </div>
                   </div>
               </div> 
-        
         </h4>
-        <div class="row">
+        <!-- <div class="row">
             <div class="col"><div class="days">
                 Sun
             </div>
@@ -113,12 +103,15 @@
                     <i class="fa-solid fa-sun"></i>
                 </div>
                 19°
-            </div>
+            </div> -->
         </div>
     </div>
-    <div class="github-link">
-        <a href="https://github.com/AlonaPashko/my-weather-app" target="_blank">The code of this app is here</a>
-    </div>
+</div>
+    <small class="github-link">
+        <a href="https://github.com/AlonaPashko/my-weather-app" target="_blank">Open-source code</a>
+        by Alona Pashko
+    </small>
+</div>
     <script src="script.js">
     </script>
 </body>
