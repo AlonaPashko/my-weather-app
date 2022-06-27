@@ -1,6 +1,6 @@
 
 .container{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Familjen Grotesk', sans-serif;
     margin: 30px auto;
     padding: 10 px;
 
@@ -9,17 +9,16 @@
     border: 0.5px solid;
     border-color: #6D8B74;
     border-radius: 10px;
-    font-family: 'Familjen Grotesk', sans-serif;
     font-weight: 700;
     max-width: 600px;
     margin: 30px auto;
     padding: 20px;
     
 }
-h1{
-    color: #6D8B74;
+.city {
+    color: #242F9B;
     display: block;
-    font-size: 24px;
+    font-size: 42px;
     font-weight: 100;
     line-height: 28px;
     margin: 15px;
@@ -28,33 +27,46 @@ h1{
 }
 .date{
     text-align: center;
-    color: #6D8B74;
-    font-size: 18px;
+    color: #9BA3EB;
+    font-style: italic;
+    font-size: 20px;
+}
+.temp-degree{
+    text-align: center;
 }
 .temperature {
-    font-size: 64px;
+    color: #242F9B;
+    font-size: 54px;
     font-weight: 400;
     line-height: 1;
+    text-align: center;
+    display: block;
 }
 .units
 {
+    color: #242F9B;
+    display: block;
     position: relative;
     font-size: 18px;
-    top: -32px;
+    text-align: center;
+    top: -48px;
+    right: -48px;
 }
 .unit-link{
-    color: black;
+    color: #242F9B;
     cursor: default;
     text-decoration: none;
 }
 .unit-link:hover{
+    color: #0d6efd;
     text-decoration: none;
 }
 .left-panel {
     position: relative;
     left: -10px;
     font-style: italic;
-    color: #6D8B74;
+    font-size: 20px;
+    color: #9BA3EB;
 }
 li{
     list-style: none;
@@ -63,16 +75,8 @@ li{
     text-transform: capitalize;
     text-align: left;
 }
-.right-panel{
-    position: relative;
-    left: -40px;
-    top: -40px;
-    text-align: right;
-    font-style: italic;
-    color: #6D8B74;
-}
 .main-icon {
-    font-size: 80px;
+    font-size: 20px;
 }
 .row{
     color: black;
@@ -91,7 +95,8 @@ font-size: 30px;
 } */
 .github-link
 {
-display: block;
+    color: #0d6efd;
+    display: block;
 text-align: center;
-color:#5F7161;
+
 }
