@@ -85,14 +85,22 @@ li{
     text-align: center;
     font-style: italic;
 }
-/* .days{
-    color:#6D8B74;
-    font-size: 20px;
+.weather-forecast{
+    margin-top: 20px;
+    text-align: center;
 }
-.icons{
-    color: #5F7161;
-font-size: 30px;
-} */
+.weather-forecast-date{
+    font-size: 16px;
+    color: black;
+    opacity: 0.5;
+}
+
+.weather-forecast-temp{
+    font-size: 14px;
+}
+.weather-forecast-temp-min{
+    opacity: 0.5;
+}
 .github-link
 {
     color: #0d6efd;
