@@ -29,7 +29,7 @@
     let forecastHTML = `<div class="row">`;
   
   forecast.forEach(function(forecastDay, index){
-    if (index < 6){
+    if (index > 0 && index < 7){
       forecastHTML += `
       <div class="col-2"><div class="weather-forecast-date">
           ${formatDay(forecastDay.dt)}
@@ -38,7 +38,8 @@
       <img class="weather-icon" src="http://openweathermap.org/img/wn/${forecastDay.weather[0].icon}@2x.png" width="42px"/>
       </div>
       <div class="weather-forecast-temp">
-          <span class="weather-forecast-temp-max">${Math.round(forecastDay.temp.max)}°</span><span class="weather-forecast-temp-min">${Math.round(forecastDay.temp.min)}°</span> 
+          <span class="weather-forecast-temp-max">${Math.round(forecastDay.temp.max)}° </span>
+          <span class="weather-forecast-temp-min"> ${Math.round(forecastDay.temp.min)}°</span> 
       </div>
       </div>`;
     }

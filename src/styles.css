@@ -47,9 +47,9 @@
     color: #242F9B;
     display: block;
     position: relative;
-    font-size: 18px;
+    font-size: 22px;
     text-align: center;
-    top: -48px;
+    top: -50px;
     right: -48px;
 }
 .unit-link{
@@ -78,32 +78,30 @@ li{
     font-size: 20px;
 }
 .row{
-    color: black;
+    color: #242F9B;
 }
 .col{
     text-align: center;
     font-style: italic;
 }
 .weather-forecast{
-    margin-top: 20px;
+    margin-top: 15px;
     text-align: center;
 }
 .weather-forecast-date{
     font-size: 16px;
-    color: black;
-    opacity: 0.5;
+    color: #242F9B;
 }
 
 .weather-forecast-temp{
     font-size: 14px;
 }
 .weather-forecast-temp-min{
-    opacity: 0.5;
+    opacity: 0.6;
 }
 .github-link
 {
     color: #0d6efd;
+    text-align: center;
     display: block;
-text-align: center;
-
 }
