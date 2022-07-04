@@ -95,34 +95,11 @@ function getCurrentLocation(event){
 event.preventDefault();
 navigator.geolocation.getCurrentPosition(searchLocation);
 }
-
-// function showFahrenhaitTemp(event){
-//   event.preventDefault();
-  
-//   let fahrenheitTemp = (celsiusTemp * 9 / 5) + 32;
-//   let temperatureElement = document.querySelector("#temperature");
-//   temperatureElement.innerHTML = Math.round(fahrenheitTemp);
-//   }
-
-  // function showCelsiusTemp(event){
-  //   event.preventDefault();
-  //   let temperatureElement = document.querySelector("#temperature");
-  //   temperatureElement.innerHTML = celsiusTemp;
-  //   }
-
-  // let celsiusTemp = null;
-
   let userSearch = document.querySelector("#search-form");
   userSearch.addEventListener("submit", handleSubmit);
 
   let currentButton = document.querySelector("#current-location-button");
   currentButton.addEventListener("click", getCurrentLocation);
-  
-  // let fahrenhaitLink = document.querySelector("#fahrenheit-link");
-  // fahrenhaitLink.addEventListener("click", showFahrenhaitTemp);
-
-  // let celsiusLink = document.querySelector("#celsius-link");
-  // celsiusLink.addEventListener("click", showCelsiusTemp);
   
   searchCity("Wejherowo");
 
